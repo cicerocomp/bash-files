@@ -23,4 +23,4 @@ function parse_git_branch() {
 export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;33m\]$(parse_git_branch)$(parse_svn_revision)\[\033[01;34m\]\[\033[00m\]\$ '
 export CLICOLOR=1
 
-
+eval "`pip completion --bash`"
