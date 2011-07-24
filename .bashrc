@@ -1,3 +1,6 @@
+export ARCHFLAGS="-arch i386 -arch x86_64"
+
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
