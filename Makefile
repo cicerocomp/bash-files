@@ -17,4 +17,11 @@ install:
 	@cp -f .bash_completion/* $$HOME/.bash_completion/
 	@echo "."
 	
-	
+	@echo -n "install .vimrc"
+	@cat .vimrc > $$HOME/.vimrc
+	@echo "."
+
+	@echo -n "install .vim"
+	@rm -rf $$HOME/.vim
+	@cp -r .vim $$HOME/.vim
+	@echo "."
