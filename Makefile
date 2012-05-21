@@ -14,6 +14,7 @@ install:
 	@echo "."
 	
 	@echo -n "move .bash_completion/ to home"
+	@mkdir $$HOME/.bash_completion
 	@cp -f .bash_completion/* $$HOME/.bash_completion/
 	@echo "."
 	
